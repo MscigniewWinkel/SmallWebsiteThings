@@ -87,13 +87,13 @@ function play(){
         }
 
         if (checkForVictory){
-            $('#description').text("Gratulacje! Wygrales!")
+            $("#description").text("Gratulacje! Wygrales!")
             $(".tile").off()
-            $("#description").css({
-                "background-color":"limegreen", 
+            $("#description").css({"background-color":"limegreen", 
                 "padding":"25px",
                 "border-radius":"10px 10px 10px 10px"
             })
+            $("#site").css("background-color", "rgb(180, 255, 168)")
         }
     }) 
 }

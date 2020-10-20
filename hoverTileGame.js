@@ -37,7 +37,7 @@ function checkGameStatus(){
         if (checkForVictory) {
             
             $(".tile").off()
-            $("#description > span").text("Gratulacje! Wygrales!").css({"background": "#3ac928"})
+            $("#description > span").text("Congratulations! You Won!").css({"background": "#3ac928"})
             $("#site").css("background", "radial-gradient(circle, rgba(140,255,54,1) 0%, rgba(126,255,124,1) 100%)")
 
         }
